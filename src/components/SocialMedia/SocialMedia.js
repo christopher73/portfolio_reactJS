@@ -3,7 +3,8 @@ import styled, { css } from 'styled-components';
 import { A } from "../../theme/types";
 import {brown,blue,  color3 } from '../../theme/variables';
 
-// import media from 'theme/media';
+
+import media from '../../theme/media';
 import { Flex } from '../../theme/grid';
 import FaFacebook from 'react-icons/lib/fa/facebook';
 import FaInstagram from 'react-icons/lib/fa/instagram';
@@ -14,6 +15,7 @@ import FaLinkedin from 'react-icons/lib/fa/linkedin';
 
 const Container = styled(Flex)`
   color:red;
+  text-align:center;
   align-content: center;
   font-size: 1.5em;
   transition: color .3s;
@@ -41,6 +43,14 @@ const Container = styled(Flex)`
     color: ${blue};
     background: ${brown};
   }
+  ${media.tablet`
+
+    font-size: 1em;
+
+  `}
+
+
+
 `;
 
 class SocialMedia extends Component {

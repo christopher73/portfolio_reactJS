@@ -22,7 +22,8 @@ export const Background = styled.div`
   margin-bottom: 0;
   text-align:center;
   ${media.tablet`
-    font-size: 1.5em;
+  font-weight: bold;
+  font-size: .8em;
   `}
 `;
 

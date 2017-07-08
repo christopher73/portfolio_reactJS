@@ -68,10 +68,10 @@ class Menub extends React.Component {
         <Nav to="/aboutme"><h1>AboutMe</h1></Nav>
 
            <SocialMedia horizontal />  
-         <p style={{ marginTop: 0,color:blue, textAlign:"center", fontSize:"1.5em"}}>EMAIL @   
+         <p style={{ marginTop: 0,color:blue, textAlign:"center", fontSize:"1.5em"}}><br/> EMAIL @  <br/>
            <A
 
-                  style={{ marginLeft:"10px", color: "white" ,fontSize:"3em", textAlign:"center" }}
+                  style={{  color:blue,fontSize:"2em", textAlign:"center" }}
                   color="red"
                   href="mailto:christopher.fajardo73@gmail.com"
                 >
