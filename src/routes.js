@@ -11,8 +11,8 @@ export default (
 <Router history={hashHistory}>
 <Route path="/" component={App}>
 <IndexRoute component={Home}/>    // index
-<Route path="/projects" component={Projects}/>
-<Route path="/aboutMe" component={AboutMe}/>
+<Route path="/Projects" component={Projects}/>
+<Route path="/SkillsRésumé" component={AboutMe}/>
 </Route>
 </Router>
 );

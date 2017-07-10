@@ -61,7 +61,7 @@ class SocialMedia extends Component {
           
     
         
-        <a >FOLLOW ME @</a>
+        <p >FOLLOW ME @</p>
 
         <a target="_blank"
           href="https://www.facebook.com/cffr90">

@@ -4,8 +4,15 @@ import media from '../../theme/media';
 
 export const ImageButton = styled.div`
   cursor: pointer;
+  border-style: solid;
   overflow: hidden;
   display: inline-block;
+  width:600px;
+  height:400px;
+   ${media.tablet`
+  width:250px;
+  height:200px;
+  `}
   & > img {
     transition: transform .3s;
   }

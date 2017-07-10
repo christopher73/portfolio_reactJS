@@ -64,8 +64,8 @@ class Menub extends React.Component {
 
 
         <Nav to="/"><h1>Home</h1></Nav>
-        <Nav to="/projects"><h1>Projects</h1></Nav>
-        <Nav to="/aboutme"><h1>AboutMe</h1></Nav>
+        <Nav to="/Projects"><h1>Projects</h1></Nav>
+        <Nav to="/SkillsRésumé"><h1>Skills/Résumé</h1></Nav>
 
            <SocialMedia horizontal />  
          <p style={{ marginTop: 0,color:blue, textAlign:"center", fontSize:"1.5em"}}><br/> EMAIL @  <br/>
